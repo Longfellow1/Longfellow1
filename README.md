@@ -62,9 +62,16 @@ The goal is to build systems where AI behavior is controllable, observable, reus
 
 ## Secondary Project
 
-### [CorpusFlow](https://github.com/Longfellow1/CorpusFlow-)
+### [Failure Stack](https://github.com/Longfellow1/failure-stack)
 
-An auditable data workbench for SFT / QA / evaluation dataset production.
+Decision guardrails for natural language programming.
+
+Failure Stack is a curated set of product and architecture skills for AI coding workflows:
+
+- judge whether a demand deserves to become code
+- turn repeated badcases into reusable mechanisms
+- keep prompts, tools, memory, and evals in the right layer
+- make natural-language programming more controllable and auditable
 
 ## Writing Themes
 
@@ -75,4 +82,3 @@ I write and build around:
 - AI products that improve thinking instead of replacing it
 - production-grade Agent Runtime architecture
 - turning messy real systems into clear product abstractions
-
