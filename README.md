@@ -4,22 +4,13 @@ AI product architect building local-first personal AI tools and production-grade
 
 ## Featured Project
 
-### [KeyPulse](https://github.com/Longfellow1/keypulse)
+### [Penpal](https://github.com/Longfellow1/penpal)
 
-A local-first Mac companion that turns your daily work traces into private reflective notes.
+The local memory all your AIs share. Penpal remembers what you've seen, written and asked on your Mac, and serves it over MCP to Claude Code, Codex and Cursor. Every result links back to its source, and you decide what each AI is allowed to see.
 
-KeyPulse is built around a simple belief: personal AI should help you notice your own patterns without turning your work into a cloud surveillance feed.
-
-- Local-first by default
-- Obsidian-native daily reflections
-- Privacy before persistence
-- Designed for knowledge workers who think through machines
-
-Not a productivity dashboard.  
-Not a screen-time tracker.  
-Not a cloud monitoring assistant.  
-
-A private thinking mirror for daily work.
+- Local-first: data stays in `~/.penpal`, no cloud, no telemetry
+- Per-AI grants by category: Work / Personal / Private / Financial
+- Built for what "AI + bash" can't reach: things that never hit disk, history past its retention, scoped access
 
 ## What I Am Thinking About
 
@@ -60,25 +51,22 @@ Orchestrator
 The goal is not to build more things named "agents".  
 The goal is to build systems where AI behavior is controllable, observable, reusable, and safe enough for real users.
 
-## Secondary Project
+## Agent Skills
 
-### [Failure Stack](https://github.com/Longfellow1/failure-stack)
+### [Principled Simplicity · deep-fix](https://github.com/Longfellow1/Principled-Simplicity-skill)
 
-Decision guardrails for natural language programming.
+Fix the layer, not the case. An architecture-repair method for AI agent systems: find the layer that owns a recurring problem and fix the mechanism there.
 
-Failure Stack is a curated set of product and architecture skills for AI coding workflows:
+### [Product Judgment](https://github.com/Longfellow1/Product-Judgment-skill)
 
-- judge whether a demand deserves to become code
-- turn repeated badcases into reusable mechanisms
-- keep prompts, tools, memory, and evals in the right layer
-- make natural-language programming more controllable and auditable
+Judge the demand before writing the PRD. An agent implementation of Yu Jun's product methodology.
 
 ## Writing Themes
 
 I write and build around:
 
 - local-first AI memory
-- private reflection tools
+- context and permissions shared across AIs
 - AI products that improve thinking instead of replacing it
 - production-grade Agent Runtime architecture
 - turning messy real systems into clear product abstractions
