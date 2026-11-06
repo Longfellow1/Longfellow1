@@ -70,3 +70,11 @@ I write and build around:
 - AI products that improve thinking instead of replacing it
 - production-grade Agent Runtime architecture
 - turning messy real systems into clear product abstractions
+
+## Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contribution-reactor-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/contribution-reactor-light.svg">
+  <img alt="GitHub contribution calendar with animated active days" src="assets/contribution-reactor-light.svg">
+</picture>

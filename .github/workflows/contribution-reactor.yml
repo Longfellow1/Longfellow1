@@ -1,0 +1,23 @@
+name: Update contribution animation
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Generate contribution images
+        run: python3 scripts/contribution_reactor.py
+      - name: Commit generated images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contribution-reactor-light.svg assets/contribution-reactor-dark.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update contribution animation'
+            git push
+          fi
